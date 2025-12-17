@@ -1,0 +1,98 @@
+{
+  "pdf": "/Users/kdb/Desktop/document_parser/kpmg.pdf",
+  "detector": "fallback",
+  "reading_order": "auto",
+  "pages": [
+    {
+      "page_index": 0,
+      "image_path": "/Users/kdb/Desktop/document_parser/test_output_full/pages/page_0001.png",
+      "width": 1560,
+      "height": 1080,
+      "text_present": false,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0,
+            0.0,
+            1560.0,
+            1080.0
+          ],
+          "score": null,
+          "label": "full_page"
+        }
+      ]
+    }
+  ],
+  "layout_quality": [
+    {
+      "page_index": 0,
+      "n_elements": 1,
+      "n_text": 1,
+      "n_table": 0,
+      "n_chart": 0,
+      "reading_order": {
+        "n_columns": 1,
+        "confidence": 0.5,
+        "ordered_indices": [
+          0
+        ],
+        "column_assignment": [
+          0
+        ],
+        "spanning_indices": [],
+        "notes": [
+          "single-column fallback"
+        ]
+      },
+      "coverage": {
+        "available": false,
+        "ratio": null
+      },
+      "warnings": []
+    }
+  ],
+  "extractions": {
+    "0": [
+      {
+        "scope": "page",
+        "type": "ocr",
+        "provider": "deepseek-ollama",
+        "mode": "markdown",
+        "text": "<|ref|>sub_title<|/ref|><|det|>[[80, 233, 433, 380]]<|/det|>\n## 2025년 국내 주요 산업 전망 \n\n<|ref|>text<|/ref|><|det|>[[80, 408, 513, 537]]<|/det|>\n반도체 | 디스플레이 | 스마트폰 | 자동차 | 철강 | 조선 |  해운 |  정유·화학 | 에너지·유틸리티 | 제약·바이오 | 건설 | 항공 | 게임 |  미디어·엔터테인먼트 | 유통 | 식품·외식 | 패션 | 화장품 | 은행 |  증권 | 카드 | 생명보험 | 손해보험 | 저축은행·캐피탈 \n\n<|ref|>text<|/ref|><|det|>[[80, 751, 176, 777]]<|/det|>\nDecember 2024 \n\n<|ref|>text<|/ref|><|det|>[[80, 805, 215, 831]]<|/det|>\n삼정KPMG 경제연구원 \n\n<|ref|>image<|/ref|><|det|>[[568, 149, 930, 853]]<|/det|>"
+      },
+      {
+        "scope": "page",
+        "type": "vlm",
+        "provider": "ollama-vlm",
+        "text": "이미지 속 페이지는 **2025년 국내 주요 산업 전망**에 대한 내용입니다. \n\n**핵심 포인트:**\n\n*   **주요 산업 분야:** 반도체, 디스플레이, 자동차, 철강, 조선, 해운, 정유·화학, 에너지·유틸리티, 제약·바이오, 건설, 항공, 게임, 미디어·엔터테인먼트, 유통, 식품·의식, 패션, 화장품, 은행, 증권, 카드, 생명보험, 손해보험, 저축은행·캐피탈 등 다양한 산업 분야를 다루고 있습니다.\n*   **발행 주체:** 삼정KPMG에서 발행한 자료입니다.\n*   **발행 시기:** December 2024 (2024년 12월)\n*   **주요 내용:** 2025년 각 산업 분야의 전망을 분석하고 제시합니다."
+      }
+    ]
+  },
+  "document_metadata": {
+    "query": "이 문서의 메타데이터를 생성해줘.",
+    "evidence": [
+      {
+        "chunk_id": "chunk_0001",
+        "text": "# Parsed Document",
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_0002",
+        "text": "## Page 1\n\n<|ref|>sub_title<|/ref|><|det|>[[80, 233, 433, 380]]<|/det|>",
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_0003",
+        "text": "## 2025년 국내 주요 산업 전망 \n\n<|ref|>text<|/ref|><|det|>[[80, 408, 513, 537]]<|/det|>\n반도체 | 디스플레이 | 스마트폰 | 자동차 | 철강 | 조선 |  해운 |  정유·화학 | 에너지·유틸리티 | 제약·바이오 | 건설 | 항공 | 게임 |  미디어·엔터테인먼트 | 유통 | 식품·외식 | 패션 | 화장품 | 은행 |  증권 | 카드 | 생명보험 | 손해보험 | 저축은행·캐피탈 \n\n<|ref|>text<|/ref|><|det|>[[80, 751, 176, 777]]<|/det|>\nDecember 2024 \n\n<|ref|>text<|/ref|><|det|>[[80, 805, 215, 831]]<|/det|>\n삼정KPMG 경제연구원 \n\n<|ref|>image<|/ref|><|det|>[[568, 149, 930, 853]]<|/det|>\n\n**이미지 해석:**\n\n이미지 속 페이지는 **2025년 국내 주요 산업 전망**에 대한 내용입니다. \n\n**핵심 포인트:**\n\n*   **주요 산업 분야:** 반도체, 디스플레이, 자동차, 철강, 조선, 해운, 정유·화학, 에너지·유틸리티, 제약·바이오, 건설, 항공, 게임, 미디어·엔터테인먼트, 유통, 식품·의식, 패션, 화장품, 은행, 증권, 카드, 생명보험, 손해보험, 저축은행·캐피탈 등 다양한 산업 분야를 다루고 있습니다.\n*   **발행 주체:** 삼정KPMG에서 발행한 자료입니다.\n*   **발행 시기:** December 2024 (2024년 12월)\n*   **주요 내용:** 2025년 각 산업 분야의 전망을 분석하고 제시합니다.",
+        "score": 0.0
+      }
+    ],
+    "llm": {
+      "used": true,
+      "provider": "OllamaVLM"
+    },
+    "raw_output": "```json\n{\n  \"title\": \"2025년 국내 주요 산업 전망\",\n  \"summary\": \"2025년 국내 주요 산업 분야의 전망을 분석한 자료입니다. 반도체, 디스플레이, 자동차, 철강, 조선, 해운, 정유·화학, 에너지·유틸리티, 제약·바이오, 건설, 항공, 게임, 미디어·엔터테인먼트, 유통, 식품·외식, 패션, 화장품, 은행, 증권, 카드, 생명보험, 손해보험, 저축은행·캐피탈 등 다양한 산업 분야를 다룹니다.\",\n  \"keywords\": [\"산업 전망\", \"2025년\", \"국내 산업\", \"경제\", \"삼정KPMG\"],\n  \"entities\": [\n    { \"name\": \"삼정KPMG\", \"type\": \"기관\" },\n    { \"name\": \"반도체\", \"type\": \"산업\" },\n    { \"name\": \"디스플레이\", \"type\": \"산업\" },\n    { \"name\": \"자동차\", \"type\": \"산업\" },\n    { \"name\": \"철강\", \"type\": \"산업\" },\n    { \"name\": \"조선\", \"type\": \"산업\" },\n    { \"name\": \"해운\", \"type\": \"산업\" },\n    { \"name\": \"정유·화학\", \"type\": \"산업\" },\n    { \"name\": \"에너지·유틸리티\", \"type\": \"산업\" },\n    { \"name\": \"제약",
+    "metadata": null
+  }
+}

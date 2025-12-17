@@ -1,0 +1,80 @@
+{
+  "pdf": "/Users/kdb/Desktop/document_parser/kpmg.pdf",
+  "detector": "fallback",
+  "reading_order": "auto",
+  "pages": [
+    {
+      "page_index": 0,
+      "image_path": "/Users/kdb/Desktop/document_parser/test_output/pages/page_0001.png",
+      "width": 1560,
+      "height": 1080,
+      "text_present": false,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0,
+            0.0,
+            1560.0,
+            1080.0
+          ],
+          "score": null,
+          "label": "full_page"
+        }
+      ]
+    }
+  ],
+  "layout_quality": [
+    {
+      "page_index": 0,
+      "n_elements": 1,
+      "n_text": 1,
+      "n_table": 0,
+      "n_chart": 0,
+      "reading_order": {
+        "n_columns": 1,
+        "confidence": 0.5,
+        "ordered_indices": [
+          0
+        ],
+        "column_assignment": [
+          0
+        ],
+        "spanning_indices": [],
+        "notes": [
+          "single-column fallback"
+        ]
+      },
+      "coverage": {
+        "available": false,
+        "ratio": null
+      },
+      "warnings": []
+    }
+  ],
+  "document_metadata": {
+    "query": "이 문서의 메타데이터를 생성해줘.",
+    "evidence": [
+      {
+        "chunk_id": "chunk_0001",
+        "text": "# Parsed Document",
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_0002",
+        "text": "## Page 1",
+        "score": 0.0
+      }
+    ],
+    "metadata": {
+      "title": "Parsed Document",
+      "language_hint": "en",
+      "summary": null,
+      "keywords": []
+    },
+    "llm": {
+      "used": false,
+      "provider": null
+    }
+  }
+}

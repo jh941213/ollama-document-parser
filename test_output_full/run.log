@@ -1,0 +1,21 @@
+[2025-12-17 18:35:04] ollamaparser-parse started
+[2025-12-17 18:35:04] pdf=/Users/kdb/Desktop/document_parser/kpmg.pdf
+[2025-12-17 18:35:04] out_dir=/Users/kdb/Desktop/document_parser/test_output_full
+[2025-12-17 18:35:04] detector=fallback, reading_order=auto
+[2025-12-17 18:35:04] ocr_provider=deepseek-ollama, ocr_scope=page
+[2025-12-17 18:35:04] vlm_provider=ollama-vlm, vlm_scope=page
+[2025-12-17 18:35:04] START render_pdf_pages scale=2.0 pages=1..1
+[2025-12-17 18:35:05] DONE  render_pdf_pages scale=2.0 pages=1..1 (0.19s)
+[2025-12-17 18:35:05] Rendered 1 pages → /Users/kdb/Desktop/document_parser/test_output_full/pages
+[2025-12-17 18:35:05] START detect_elements page=1
+[2025-12-17 18:35:05] DONE  detect_elements page=1 (0.00s)
+[2025-12-17 18:35:05] page=1: elements=1
+[2025-12-17 18:35:05] START ocr_page page=1
+[2025-12-17 18:35:10] DONE  ocr_page page=1 (5.43s)
+[2025-12-17 18:35:10] START vlm_page page=1
+[2025-12-17 18:35:39] DONE  vlm_page page=1 (28.86s)
+[2025-12-17 18:35:39] START layout_check page=1
+[2025-12-17 18:35:39] DONE  layout_check page=1 (0.00s)
+[2025-12-17 18:35:39] Wrote /Users/kdb/Desktop/document_parser/test_output_full/out.md
+[2025-12-17 18:36:22] Wrote /Users/kdb/Desktop/document_parser/test_output_full/out.meta.json
+[2025-12-17 18:36:22] ollamaparser-parse finished
